@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Add to LocalStorage",
+  "version": "0.1",
+  "icons": {
+    "128": "localStorageIcon128.png"
+  },   
+  "content_scripts": [
+  {
+    "matches": [
+      "https://github.com/*"
+    ],
+    "js": ["content.js"]
+  }
+  ]
+}
